@@ -88,7 +88,7 @@ margin: 1rem;
 }
 .btn2{
     padding: 0.5rem 2rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--clr-pale-cyan);
     font-weight: 700;
     border-radius: 20px;
@@ -160,17 +160,20 @@ margin: 1rem 6rem;
 }
 
 .ready{
-    font-family: var(--ff-open);
-    font-size: 1.25rem;
+    font-family: var(--ff-pop);
+    font-size: 1rem;
     color: var(--clr-dark-cyan);
 
 }
 .foot{
     text-align: center;
-    background-color: black;
-    border: 0.5px solid whitesmoke;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid white;
     margin:-5rem;
     padding-bottom: ;
-    height:5rem;
-    width: 50rem
+    height:6.5rem;
+    width:50%;
+    margin-left: 25%;
 }
+    
