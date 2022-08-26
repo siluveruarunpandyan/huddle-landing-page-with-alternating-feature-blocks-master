@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Poppins:wght@400;500;600;700;900&display=swap');
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ff-open: 'Open Sans', sans-serif;
+    --ff-pop: 'Poppins', sans-serif;
+    --clr-pink: hsl(322, 100%, 66%);
+    --clr-dark-cyan: hsl(192, 100%, 9%);
+    --clr-grayish-blue: hsl(208, 11%, 55%);
+    --clr-pale-cyan: hsl(193, 100%, 9%);
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.headings{
+    font-family: var(--ff-pop);
+    weight: 600;
+    color: var(--clr-dark-cyan);
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+}
+body{
+    font-family: var(--ff-open);
+    font-size: 18px;
+}
+.head-section{
+    background-image: url(/assets/bg-hero-desktop.svg);
+
+}
+p{
+    font-family: var(--ff-open);
+    font-size: 18px; 
+    color:var(--clr-pale-cyan);
+    weight:400;
+    padding: 1rem .5rem;
+    
+}
+.navbar{
+    display: flex;
+   padding: 1rem;
+    justify-content: space-between;
+    
+}
+.btn{
+    background-color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+
+
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    height:calc(60vh-5rem);
+    justify-content: space-between;
+   gap: 1rem;
+
+
+}
+.hero-left-container{
+ margin: 2rem;
+
+ 
+}
+
+.hero-right-container{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1rem;
+
+}
+.btn2{
+    padding: 0.5rem 2rem;
+    font-size: 1.25rem;
+    color: var(--clr-pale-cyan);
+    font-weight: 700;
+    border-radius: 20px;
+    text-transform: capitalize;
+    background-color: var(--clr-pink);
+    border: 2px solid pink;
+    cursor: pointer;
+}
+
+
