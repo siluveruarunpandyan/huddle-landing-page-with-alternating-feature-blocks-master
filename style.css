@@ -176,4 +176,38 @@ margin: 1rem 6rem;
     width:50%;
     margin-left: 25%;
 }
+.foot-logo{
+    display:flex ;
+    justify-content: flex-start;
+    padding: 2rem 80% 0rem 0rem ;
+    margin: 6rem 0rem 0rem 2rem;
+    background-color: ;
+    height: 2rem 0rem 0rem 0rem;
     
+
+}
+    
+
+.address-section{
+    display: flex ;
+    justify-content: ;
+    background-color:var(--clr-dark-cyan);
+    margin: 0rem 25% 0rem 25%rem;
+    font-size: small;
+    color: var(--clr-grayish-blue);
+}
+
+
+.abt-company{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.address-details{
+    padding-right: 25%;
+}
+
+.social-logo{
+    display: flex;
+    padding-left: 12%;
+}
