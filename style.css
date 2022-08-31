@@ -309,9 +309,12 @@ align-items: center;
     color: white;    
     
 }
-.copy-right{
-    margin-top: 150px;
-    margin-left: 50px;
+.copyright{
+    
+    justify-content:flex-start ;
+    
+    padding-top:10rem ;
+    padding-bottom: 1rem;
 }
 
 
