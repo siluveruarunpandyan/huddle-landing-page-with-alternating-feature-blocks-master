@@ -124,19 +124,19 @@ margin: 1rem;
     background-color: rgb(255, 254, 254);
 display: flex;
 border: 0.5px solid whitesmoke;
-margin: 1rem 6rem;
+margin: 1rem 3rem;
 }
 .inner-main-left{
     justify-content: flex-end;
     align-items: center;
-    margin: 5rem 1rem;
-    padding: 12rem,6rem 12rem 1rem;
+    margin: 1rem 1rem;
+    padding: 1rem,1rem 1rem 1rem;
 
 }
 .inner-main-right{
     justify-content: center;
-  margin: 2rem 6rem;
-  padding: 10rem 2rem;
+  margin: 0rem 0rem;
+  padding: 0rem 0rem;
 }
 .inner-main-section2{
     margin-bottom: 2rem;
@@ -148,8 +148,8 @@ margin: 1rem 6rem;
 }
 .inner-main-right2{
   justify-content: center;
-  margin: 2rem 6rem;
-  padding: 10rem 2rem;
+  margin: 2rem 2rem;
+  padding: 1rem 1rem;
 }
 
 .flower{
@@ -166,11 +166,11 @@ margin: 1rem 6rem;
 .inner-main-left3{
     justify-content: flex-end;
     align-items: center;
-    margin: 5rem 1rem;
+    margin: 0rem 01rem;
     padding: 12rem,6rem 12rem 1rem;  
 }
 .inner-main-right3{
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
 }
 
 .ready{
@@ -318,18 +318,89 @@ align-items: center;
     font-size: 3rem;
 }
 
-@media screen  and (max-width:425px){
+@media screen  and (max-width:728px){
     .head{
        width: auto;
        margin: 0; 
     }
-    .outer-main{
-        display: none;
+    .head-section{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
 
     }
-    .inner-main-right{
-        margin: 2rem 2rem 2rem 2rem;
+    .navbar{
+        flex-direction:column ;
+        align-items: center;
     }
+    .hero-container{
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.25rem;
+        margin:1rem
+    }
+    .outer-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .inner-main-section{
+flex-direction: column;
+margin: auto;
+
+    }
+
+    .inner-main-right{
+        padding: 2rem 1rem;
+        margin: 1rem 3rem;
+    }
+    .inner-main-section2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner-main-section3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        height: 100px;
+        width: 250px;
+        left: 40px;
+        position: absolute;
+        margin-top:-40
+
+    }
+    .btn2{
+        padding: 0.5rem 1rem;
+       
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+    }
+    .ad-lft-sct{
+        margin-top: 90px;
+        margin-left: 20px;
+        width: 120px;
+        height: 130px;
+    }
+    .abt-company{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 75px;
+        margin-left: 55px;
+    }
+
+
 }
+
 
 
