@@ -318,5 +318,18 @@ align-items: center;
     font-size: 3rem;
 }
 
+@media screen  and (max-width:425px){
+    .head{
+       width: auto;
+       margin: 0; 
+    }
+    .outer-main{
+        display: none;
+
+    }
+    .inner-main-right{
+        margin: 2rem 2rem 2rem 2rem;
+    }
+}
 
 
